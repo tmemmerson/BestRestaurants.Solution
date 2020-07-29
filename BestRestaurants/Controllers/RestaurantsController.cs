@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace BestRestaurants.Controllers
 {
-  public class RestaurantsController : Controllers{
+  public class RestaurantsController : Controller
   {
     private readonly BestRestaurantsContext _db;
 
@@ -24,7 +24,7 @@ namespace BestRestaurants.Controllers
 
     public ActionResult Create()
     {
-      ViewBag.CuisineId = new SelectList(_deb.Cuisines, "CategoryId", "Name");
+      ViewBag.CuisineId = new SelectList(_db.Cuisines, "CuisineId", "Name");
       return View();
     }
 
@@ -49,9 +49,27 @@ namespace BestRestaurants.Controllers
       return View(thisRestaurant);
     }
 
-    // HTtp post Edit to start after lunch
+    [HttpPost]
+    public ActionResult Edit (Restaurant restaurant)
+    {
+      _db.Entry(restaurant).State = EntityState.Modified;
+      _db.SaveChanges();
+      return RedirectToAction("Index");
+    }
 
+    public ActionResult Delete(int id)
+    {
+      var thisRestaurant = _db.Restaurants.FirstOrDefault(restaurants => restaurants.RestaurantId == id);
+      return View(thisRestaurant);
+    }
 
-  }
+    [HttpPost, ActionName("Delete")]
+    public ActionResult DeleteConfirmed(int id)
+    {
+      var thisRestaurant = _db.Restaurants.FirstOrDefault(restaurants => restaurants.RestaurantId == id);
+      _db.Restaurants.Remove(thisRestaurant);
+      _db.SaveChanges();
+      return RedirectToAction("Index");
+    }
   }
 }

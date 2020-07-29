@@ -1,0 +1,28 @@
+@{
+  Layout = "_Layout";
+}
+
+@using BestRestaurants.Models; 
+@model BestRestaurants.Models.Cuisine; 
+
+
+
+<h2>@cuisine.Name Restaurants</h2>
+<hr />
+<h3>@Html. 
+
+<ul>
+@if (@Model.Cuisines.Count == 0)
+{
+  <p>nothing found</p>
+}
+
+@foreach (Restaurant restaurant in Model)
+{
+  <li>@restaurant.Name</li>
+}
+</ul>
+
+<p>@Html.ActionLink("Cuisines home", "Index")</p>
+<p>@Html.ActionLink("Home", "Index", "Home")</p>
+
