@@ -36,17 +36,10 @@ namespace BestRestaurants.Controllers
 
     public ActionResult Details(int id)
     {
-      // Cuisine thisCuisine = _db.Cuisines.FirstOrDefault(cuisine => cuisine.CuisineId == id);
-      List<Restaurant> restaurantList = _db.Restaurants.ToList();
-      List<Restaurant> cuisineRestaurants = new List<Restaurant> {};
-      foreach (Restaurant restaurant in restaurantList)
-      {
-          if (restaurant.CuisineId == id)
-          {
-            cuisineRestaurants.Add(restaurant);
-          }
-      }
-      return View(cuisineRestaurants);
+      Cuisine thisCuisine = _db.Cuisines
+      .Include(cuisine => cuisine.Restaurants)
+      .FirstOrDefault(cuisine => cuisine.CuisineId == id);
+      return View(thisCuisine);
     }
 
     public ActionResult Edit(int id)
