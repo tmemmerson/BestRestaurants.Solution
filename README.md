@@ -1,12 +1,20 @@
-<p align="center">
-  <img width="700" height="426" src="https://coding-assets.s3-us-west-2.amazonaws.com/img/best_restaurants.png">
-</p>
+<h1 align = "center"> Cuisine Finder
 
+<h1 align="center">
+  <img width="800" height="487" src="https://coding-assets.s3-us-west-2.amazonaws.com/img/best_restaurants.png">
+</h1>
+<h4 align="center">Finding you the best restaurants by cuisine
 <br>
 
-# _Best Restaurants by Cuisine_
-
-#### _Restaurant app written with c# & entity_	
+<p align = "center">
+  <a href="#description">Description</a> •
+  <a href="#">1</a> •
+  <a href="#">1</a> •
+  <a href="#questions-and-concerns">Q's & C's</a> •
+  <a href="#known-bugs">Known Bugs</a> •
+  <a href="#known-bugs">Known Bugs</a> •  
+  <a href="#protecting-your-data">Protecting Data</a> •
+  <a href="#license">License</a> •
 
 #### By _**Tristan Emmerson, Kyle Hubbard, Taylor Phillips, & Megan Hepner**_
 
@@ -74,7 +82,7 @@ _**No Known Bugs:**7/28/2020_
 
 <br>
 
-## **Support and contact details**
+## **Questions and Concerns**
 
 _Questions, comments and concerns can be directed to the author [Tristan Emmerson](tristan@stickerslug.com)
 
