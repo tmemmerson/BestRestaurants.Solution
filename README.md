@@ -10,8 +10,8 @@
 <br>
 
 **<h2 align = "center">
-  <a href="#install">Install</a> •
-  <a href="#setup">Setup</a> •
+  <a href="#✅requirements">Requirements</a> •
+  <a href="#🚀setup">Setup</a> •
   <a href="#protecting-your-data">Protecting Data</a> •
   <a href="#questions-and-concerns">Q's & C's</a> •
   <a href="#technologies-used">Technologies</a> •
@@ -28,17 +28,16 @@
 
 _Cuisine finder allows you to add favorite local restaurants and associated cuisine type. You can also search the database for other restaurants by their cuisine type. This app utilizes razor c# asp.net core mvc with entity framework using the CRUD naming convention._
 
-<br>
 
-## **INSTALL**
+## **✅REQUIREMENTS**
 
-* Install [.NET version 3.1](https://dotnet.microsoft.com/download/dotnet-core/2.2) _SDK v2.2+_
+* Install [Git v2.62.2+](https://git-scm.com/downloads/)
+* Install [.NET version 3.1 SDK v2.2+](https://dotnet.microsoft.com/download/dotnet-core/2.2)
 * Install [Visual Studio Code](https://code.visualstudio.com/)
 * Install [MySql Workbench](https://www.mysql.com/products/workbench/)
 
-<br>
 
-## **SETUP**
+## **🚀SETUP**
 
 
 copy this url to clone this project to your local system:
@@ -56,7 +55,7 @@ Once copied, select "Clone Repository" from within VSCode & paste the copied lin
 
 With the project open to the root directory, navigate to the production directory with the following command in your terminal.
 ```js 
-cd BestRestaurants
+cd ProjectName
 ```
 
 Then, install the necessary packages with the following command
@@ -86,40 +85,23 @@ touch .gitignore
 ni .gitignore 
 ```
 
-#### Step 2: commit that .gitignore file (this prevents your sensitive information like your username or password being shown to others). **DO NOT PROCEED UNTIL YOU DO THIS!**
+#### Step 2: commit that .gitignore file (this prevents your sensitive information from being shown to others). **DO NOT PROCEED UNTIL YOU DO!**
 
+![setup](https://coding-assets.s3-us-west-2.amazonaws.com/img/entity-readme-image.png "Set up instructions")
+
+#### Step 3: **To commit your .gitignore file enter the following commands**
+```js
+git add .gitignore
+git commit -m "protect data"
+```
+
+#### Step 4: **Then, you need to update your username and password in the appsettings.json file.**
+
+_by default these are set to user:root and an empty password. if you are unsure, refer to the settings for your MySqlWorkbench._
 
 ![appsettings](https://coding-assets.s3-us-west-2.amazonaws.com/img/app-settings.png)
 
-![setup](https://coding-assets.s3-us-west-2.amazonaws.com/img/readme-image-3.jpg "Set up instructions")
-
 <br>
-
-
-
-_Recommended browser for everything in life. [Google Chrome](https://www.google.com/chrome/)_.
-
-
-
-
-**Windows/Mac Users:** If modifying for personal use, dl Git [here](https://git-scm.com/downloads/) (v2.62.2)
-
-
-
-
-
-In your preferred terminal window, navigate into PROJECTNAME.SOLUTIONS/PROJECTNAME using cd (i.e. cd desktop/PROJECTNAME.SOLUTIONS/PROJECTNAME) and open the project with your preferred code editor.
-
-Run the following terminal command: $ dotnet restore
-To initiate this program, run the command: $ dotnet run
-To run the test suite included with this project, within the terminal navigate into PROJECTNAME.TESTS and run the following commands:
-$ dotnet restore
-$ dotnet test
-
-<br>
-
-
-
 
 ## **QUESTIONS AND CONCERNS**
 
@@ -138,7 +120,7 @@ _**Image work:** [Adobe Photoshop](https://www.adobe.com/products/photoshop.html
 
 ## **Known Bugs**
 
-_**No Known Bugs:**7/28/2020_
+_**No Known Bugs:**7/30/2020_
 
 <br>
 
