@@ -1,23 +1,22 @@
-<h1 align = "center"> Cuisine Finder
+**<h1 align = "center"> Cuisine Finder**
 
 <h1 align="center">
   <img width="800" height="487" src="https://coding-assets.s3-us-west-2.amazonaws.com/img/best_restaurants.png">
 </h1>
 
 
-**<h3 align="center">Finding you the best restaurants by cuisine
-<br>**
+**<h3 align="center">Finding you the best restaurants by cuisine**
 
-
+<br>
 
 **<h2 align = "center">
-  <a href="#contributors">Contributors</a> •
-  <a href="#setup">Setup</a> •
   <a href="#install">Install</a> •
+  <a href="#setup">Setup</a> •
+  <a href="#protecting-your-data">Protecting Data</a> •
   <a href="#questions-and-concerns">Q's & C's</a> •
   <a href="#technologies-used">Technologies</a> •
   <a href="#known-bugs">Known Bugs</a> •  
-  <a href="#protecting-your-data">Protecting Data</a> •
+  <a href="#contributors">Contributors</a> •
   <a href="#license">License</a>**
 
 <br>
@@ -27,31 +26,87 @@
 
 </p>
 
-_Cuisine finder allows you to add your favorite local restaurants and associated cuisine type. You can also search the database for other restaurants by their cuisine type. This application utilizes razor c# asp.net core mvc with entity framework._
+_Cuisine finder allows you to add favorite local restaurants and associated cuisine type. You can also search the database for other restaurants by their cuisine type. This app utilizes razor c# asp.net core mvc with entity framework using the CRUD naming convention._
+
+<br>
+
+## **INSTALL**
+
+* Install [.NET version 3.1](https://dotnet.microsoft.com/download/dotnet-core/2.2) _SDK v2.2+_
+* Install [Visual Studio Code](https://code.visualstudio.com/)
+* Install [MySql Workbench](https://www.mysql.com/products/workbench/)
 
 <br>
 
 ## **SETUP**
 
-*  _Recommended browser for everything in life. [Google Chrome](https://www.google.com/chrome/)_.
 
-*EDIT *  _Github [repository](https://github.com/.git)_
+copy this url to clone this project to your local system:
+```html
+https://github.com/tmemmerson/BestRestaurants.git
+```
 
+<br>
 
-*  **Windows/Mac Users:** If modifying for personal use, dl Git [here](https://git-scm.com/downloads/) (v2.62.2)
-
-* Download [Visual Studio Code](https://code.visualstudio.com/) (v1.45)
-
-*EDIT* Download ZIP [here](https://github.com/) OR if you are comfortable cloning a repo, copy the link as shown below.
-
-![cloning](https://coding-assets.s3-us-west-2.amazonaws.com/img/clone.gif "How to clone repo")
-
-* this image shows you where to paste your copied link into VSCode
+Once copied, select "Clone Repository" from within VSCode & paste the copied link as shown in the image below.
 
 ![cloning](https://coding-assets.s3-us-west-2.amazonaws.com/img/clone-github2.gif "Cloning from Github within VSCode")
 
-This program utilizes .NET version 3.1, and requires this framework to be pre-installed:
-Please go to https://dotnet.microsoft.com/download/dotnet-core/2.2 and install the SDK version 2.2 or greater patch version.
+<br>
+
+With the project open to the root directory, navigate to the production directory with the following command in your terminal.
+```js 
+cd BestRestaurants
+```
+
+Then, install the necessary packages with the following command
+```js 
+dotnet restore 
+```
+
+Finally, you can start the program with this command.
+```js 
+dotnet run 
+```
+
+![cloning](https://coding-assets.s3-us-west-2.amazonaws.com/img/dotnet-readme.gif "How to clone repo")
+
+
+## **PROTECTING YOUR DATA**
+
+#### **Step 1: From within VSCode in the root project directory, we will create a .gitignore file**
+
+**On Mac**
+```js 
+touch .gitignore 
+```
+
+**On PC**
+```js 
+ni .gitignore 
+```
+
+#### Step 2: commit that .gitignore file (this prevents your sensitive information like your username or password being shown to others). **DO NOT PROCEED UNTIL YOU DO THIS!**
+
+
+![appsettings](https://coding-assets.s3-us-west-2.amazonaws.com/img/app-settings.png)
+
+![setup](https://coding-assets.s3-us-west-2.amazonaws.com/img/readme-image-3.jpg "Set up instructions")
+
+<br>
+
+
+
+_Recommended browser for everything in life. [Google Chrome](https://www.google.com/chrome/)_.
+
+
+
+
+**Windows/Mac Users:** If modifying for personal use, dl Git [here](https://git-scm.com/downloads/) (v2.62.2)
+
+
+
+
 
 In your preferred terminal window, navigate into PROJECTNAME.SOLUTIONS/PROJECTNAME using cd (i.e. cd desktop/PROJECTNAME.SOLUTIONS/PROJECTNAME) and open the project with your preferred code editor.
 
@@ -63,24 +118,8 @@ $ dotnet test
 
 <br>
 
-## **INSTALL**
-
-dfgdfhsfdhfhsfhfsg
-
-<br>
 
 
-## **PROTECTING YOUR DATA**
-
-* Step 1: create a .gitignore file in the top level of your project directory. populate the file as shown in step 1 of the image below.
-
-* Step 2: commit that .gitignore file (this prevents your sensitive information like your API key being shown to others). **DO NOT PROCEED TO STEP 3 UNTIL YOU DO THIS!**
-
-![setup](https://coding-assets.s3-us-west-2.amazonaws.com/img/readme-image-3.jpg "Set up instructions")
-
-
-
-<br>
 
 ## **QUESTIONS AND CONCERNS**
 
