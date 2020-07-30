@@ -3,38 +3,35 @@
 <h1 align="center">
   <img width="800" height="487" src="https://coding-assets.s3-us-west-2.amazonaws.com/img/best_restaurants.png">
 </h1>
-<h4 align="center">Finding you the best restaurants by cuisine
-<br>
 
-<p align = "center">
-  <a href="#description">Description</a> •
-  <a href="#">1</a> •
-  <a href="#">1</a> •
+
+**<h3 align="center">Finding you the best restaurants by cuisine
+<br>**
+
+
+
+**<h2 align = "center">
+  <a href="#contributors">Contributors</a> •
+  <a href="#setup">Setup</a> •
+  <a href="#install">Install</a> •
   <a href="#questions-and-concerns">Q's & C's</a> •
-  <a href="#known-bugs">Known Bugs</a> •
+  <a href="#technologies-used">Technologies</a> •
   <a href="#known-bugs">Known Bugs</a> •  
   <a href="#protecting-your-data">Protecting Data</a> •
-  <a href="#license">License</a> •
+  <a href="#license">License</a>**
 
-#### By _**Tristan Emmerson, Kyle Hubbard, Taylor Phillips, & Megan Hepner**_
+<br>
+<h2 align = "center">
+
+**ABOUT**
+
+</p>
+
+_Cuisine finder allows you to add your favorite local restaurants and associated cuisine type. You can also search the database for other restaurants by their cuisine type. This application utilizes razor c# asp.net core mvc with entity framework._
 
 <br>
 
-## **DESCRIPTION**
-
-_restaurants sorted by cuisine types written in razor c# asp.net core mvc. A user may browse for the top restaurants according to cuisines that they are interested in_
-
-<br>
-
-## **SPECIFICATIONS**
-
-| Spec 	| Input 	| Output 	|
-|-	|-	|-	|
-
-
-<br>
-
-## **SETUP & INSTALLATION**
+## **SETUP**
 
 *  _Recommended browser for everything in life. [Google Chrome](https://www.google.com/chrome/)_.
 
@@ -66,6 +63,13 @@ $ dotnet test
 
 <br>
 
+## **INSTALL**
+
+dfgdfhsfdhfhsfhfsg
+
+<br>
+
+
 ## **PROTECTING YOUR DATA**
 
 * Step 1: create a .gitignore file in the top level of your project directory. populate the file as shown in step 1 of the image below.
@@ -74,15 +78,11 @@ $ dotnet test
 
 ![setup](https://coding-assets.s3-us-west-2.amazonaws.com/img/readme-image-3.jpg "Set up instructions")
 
-<br>
 
-## **Known Bugs**
-
-_**No Known Bugs:**7/28/2020_
 
 <br>
 
-## **Questions and Concerns**
+## **QUESTIONS AND CONCERNS**
 
 _Questions, comments and concerns can be directed to the author [Tristan Emmerson](tristan@stickerslug.com)
 
@@ -94,6 +94,19 @@ _**Written in:** [Visual Studio Code](https://code.visualstudio.com/)_
 
 _**Image work:** [Adobe Photoshop](https://www.adobe.com/products/photoshop.html/)_
 
+<br>
+
+
+## **Known Bugs**
+
+_**No Known Bugs:**7/28/2020_
+
+<br>
+
+
+## **Contributors**
+
+#### By _**Tristan Emmerson, Kyle Hubbard, Taylor Phillips, & Megan Hepner**_
 
 <br>
 
