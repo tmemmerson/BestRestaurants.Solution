@@ -13,11 +13,11 @@
   <a href="#✅requirements">Requirements</a> •
   <a href="#🚀setup">Setup</a> •
   <a href="#protecting-your-data">Protecting Data</a> •
-  <a href="#questions-and-concerns">Q's & C's</a> •
+  <a href="#📫 questions-and-concerns">Q's & C's</a> •
   <a href="#technologies-used">Technologies</a> •
   <a href="#known-bugs">Known Bugs</a> •  
-  <a href="#contributors">Contributors</a> •
-  <a href="#license">License</a>**
+  <a href="#❤️contributors">Contributors</a> •
+  <a href="#📘 license">License</a>**
 
 <br>
 <h2 align = "center">
@@ -103,9 +103,9 @@ _by default these are set to user:root and an empty password. if you are unsure,
 
 <br>
 
-## **QUESTIONS AND CONCERNS**
+## **📫 QUESTIONS AND CONCERNS**
 
-_Questions, comments and concerns can be directed to the author [Tristan Emmerson](tristan@stickerslug.com)
+_Questions, comments and concerns can be directed to the author [Tristan Emmerson](tristan@stickerslug.com)_
 
 <br>
 
@@ -125,15 +125,14 @@ _**No Known Bugs:**7/30/2020_
 <br>
 
 
-## **Contributors**
+## **❤️Contributors**
 
 #### By _**Tristan Emmerson, Kyle Hubbard, Taylor Phillips, & Megan Hepner**_
 
 <br>
 
-## **License**
-![alt text][logo]
-
-[logo]: https://img.shields.io/bower/l/bootstrap "MIT License"
+## **📘 License**
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 Copyright (c) 2020 **_Tristan Emmerson, Stickerslug Inc._**
+
