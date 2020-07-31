@@ -1,7 +1,7 @@
 **<h1 align = "center"> Cuisine Finder**
 
 <h1 align="center">
-  <img width="800" height="487" src="https://coding-assets.s3-us-west-2.amazonaws.com/img/best_restaurants.png">
+  <img width="900" height="547" src="https://coding-assets.s3-us-west-2.amazonaws.com/img/best_restaurants.png">
 </h1>
 
 
