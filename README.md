@@ -9,7 +9,7 @@
 
 <br>
 
-**<h3 align = "center">
+**<h4 align = "center">
   <a href="#✅requirements">Requirements</a> •
   <a href="#💻setup">Setup</a> •
   <a href="#protecting-your-data">Protecting Data</a> •
