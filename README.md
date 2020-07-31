@@ -88,7 +88,7 @@ touch .gitignore
 ni .gitignore 
 ```
 
-#### Step 2: commit that .gitignore file (this prevents your sensitive information from being shown to others). **⚠️DO NOT PROCEED UNTIL YOU DO!⚠️**
+#### Step 2: commit that .gitignore file (this protects your sensitive data). **⚠️DO NOT PROCEED UNTIL YOU DO!⚠️**
 
 ![setup](https://coding-assets.s3-us-west-2.amazonaws.com/img/entity-readme-image.png "Set up instructions")
 
