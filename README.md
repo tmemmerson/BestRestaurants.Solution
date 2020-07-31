@@ -111,7 +111,7 @@ _by default these are set to user:root and an empty password. if you are unsure,
 
 ## **📫 QUESTIONS AND CONCERNS**
 
-_Questions, comments and concerns can be directed to the author [Tristan Emmerson](tristan@stickerslug.com)_
+_Questions, comments and concerns can be directed to the author [Tristan Emmerson](https://www.linkedin.com/in/tristan-emmerson/)_
 
 <br>
 
